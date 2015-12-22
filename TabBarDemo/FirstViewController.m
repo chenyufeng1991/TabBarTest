@@ -9,6 +9,7 @@
 //
 
 #import "FirstViewController.h"
+#import "First02ViewController.h"
 
 @interface FirstViewController ()
 
@@ -16,20 +17,22 @@
 
 @implementation FirstViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    // Custom initialization
-  }
-  return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+  self.title = @"1111";
+
+}
+
+
+- (IBAction)buttonPressed:(id)sender {
+
+  First02ViewController *first02 = [[First02ViewController alloc] init];
+  [self.navigationController pushViewController:first02 animated:true];
 
 
 }
+
+
 
 @end

@@ -16,6 +16,10 @@
 		719050881C292FB400907219 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719050861C292FB400907219 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 		719050891C292FB400907219 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719050871C292FB400907219 /* SecondViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		7190508C1C29303800907219 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190508B1C29303800907219 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		719050901C29350F00907219 /* First02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190508E1C29350F00907219 /* First02ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		719050911C29350F00907219 /* First02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7190508F1C29350F00907219 /* First02ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		719050951C29414400907219 /* Second02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719050931C29414400907219 /* Second02ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		719050961C29414400907219 /* Second02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719050941C29414400907219 /* Second02ViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,12 @@
 		719050871C292FB400907219 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		7190508A1C29303800907219 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7190508B1C29303800907219 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7190508D1C29350F00907219 /* First02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First02ViewController.h; sourceTree = "<group>"; };
+		7190508E1C29350F00907219 /* First02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First02ViewController.m; sourceTree = "<group>"; };
+		7190508F1C29350F00907219 /* First02ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First02ViewController.xib; sourceTree = "<group>"; };
+		719050921C29414400907219 /* Second02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second02ViewController.h; sourceTree = "<group>"; };
+		719050931C29414400907219 /* Second02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second02ViewController.m; sourceTree = "<group>"; };
+		719050941C29414400907219 /* Second02ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Second02ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +83,15 @@
 				719050801C292FA000907219 /* FirstViewController.h */,
 				719050811C292FA000907219 /* FirstViewController.m */,
 				719050821C292FA000907219 /* FirstViewController.xib */,
+				7190508D1C29350F00907219 /* First02ViewController.h */,
+				7190508E1C29350F00907219 /* First02ViewController.m */,
+				7190508F1C29350F00907219 /* First02ViewController.xib */,
 				719050851C292FB400907219 /* SecondViewController.h */,
 				719050861C292FB400907219 /* SecondViewController.m */,
 				719050871C292FB400907219 /* SecondViewController.xib */,
+				719050921C29414400907219 /* Second02ViewController.h */,
+				719050931C29414400907219 /* Second02ViewController.m */,
+				719050941C29414400907219 /* Second02ViewController.xib */,
 				719050751C292F8000907219 /* Assets.xcassets */,
 				719050771C292F8000907219 /* LaunchScreen.storyboard */,
 				7190507A1C292F8000907219 /* Info.plist */,
@@ -150,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				719050891C292FB400907219 /* SecondViewController.xib in Resources */,
+				719050911C29350F00907219 /* First02ViewController.xib in Resources */,
 				719050791C292F8000907219 /* LaunchScreen.storyboard in Resources */,
 				719050841C292FA000907219 /* FirstViewController.xib in Resources */,
+				719050961C29414400907219 /* Second02ViewController.xib in Resources */,
 				719050761C292F8000907219 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				719050881C292FB400907219 /* SecondViewController.m in Sources */,
+				719050901C29350F00907219 /* First02ViewController.m in Sources */,
 				7190506E1C292F8000907219 /* AppDelegate.m in Sources */,
 				719050831C292FA000907219 /* FirstViewController.m in Sources */,
 				7190506B1C292F8000907219 /* main.m in Sources */,
+				719050951C29414400907219 /* Second02ViewController.m in Sources */,
 				7190508C1C29303800907219 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +328,7 @@
 				7190507F1C292F8000907219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,15 +18,6 @@
 
 @implementation RootViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-
-  }
-  return self;
-}
-
 - (void)viewDidLoad
 {
   [super viewDidLoad];
@@ -40,7 +31,7 @@
 
   SecondViewController *secondVC = [[SecondViewController alloc]init];
   UINavigationController *secondNav = [[UINavigationController alloc]initWithRootViewController:secondVC];
-  secondNav.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemRecents tag:1];
+  secondNav.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemSearch tag:1];
 
   tabBarController.viewControllers = [NSArray arrayWithObjects:firstNav,secondNav, nil];
 

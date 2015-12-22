@@ -9,6 +9,7 @@
 //
 
 #import "SecondViewController.h"
+#import "Second02ViewController.h"
 
 @interface SecondViewController ()
 
@@ -16,20 +17,21 @@
 
 @implementation SecondViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    // Custom initialization
-  }
-  return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+  self.title = @"2222";
 
   
 }
+
+- (IBAction)buttonPressed:(id)sender {
+
+  Second02ViewController *second02 = [[Second02ViewController alloc] init];
+  [self presentViewController:second02 animated:true completion:nil];
+
+
+}
+
 
 @end

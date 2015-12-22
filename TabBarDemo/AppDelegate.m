@@ -15,20 +15,14 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
 
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
   RootViewController *root = [[RootViewController alloc]init];
   self.window.rootViewController = root;
 
-  self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
-
-
-
 
   return YES;
 }

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  First02ViewController.h
 //  TabBarDemo
 //
 //  Created by chenyufeng on 15/12/22.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface First02ViewController : UIViewController
 
 @end
-
