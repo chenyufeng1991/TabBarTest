@@ -18,19 +18,16 @@
 @implementation First02ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-
+  [super viewDidLoad];
 
   self.title = @"新闻";
 
-
 }
-
 
 - (IBAction)backButtonPressed:(id)sender {
 
+  //通过pop返回到push过来的界面；
   [self.navigationController popViewControllerAnimated:true];
 }
-
 
 @end

@@ -14,6 +14,9 @@
 
 @interface RootViewController ()<UITabBarControllerDelegate>
 
+//声明TabBar
+@property (nonatomic,strong)UITabBarController *tabBarController;
+
 @end
 
 @implementation RootViewController
@@ -24,7 +27,10 @@
 
   UITabBarController *tabBarController = [[UITabBarController alloc]init];
   tabBarController.delegate = self;
-
+  /**
+   把两个界面加入到根视图中；
+   两个界面也分别要导航栏；
+   */
   FirstViewController *firstVC = [[FirstViewController alloc]init];
   UINavigationController *firstNav = [[UINavigationController alloc]initWithRootViewController:firstVC];
   firstNav.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemRecents tag:0];
@@ -33,12 +39,11 @@
   UINavigationController *secondNav = [[UINavigationController alloc]initWithRootViewController:secondVC];
   secondNav.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemSearch tag:1];
 
+  //通过数组存储；
   tabBarController.viewControllers = [NSArray arrayWithObjects:firstNav,secondNav, nil];
 
-  // 重要：一定不能让 tabBarController 释放掉，否则会引起崩溃
   self.tabBarController = tabBarController;
   [self.view addSubview:tabBarController.view];
-  self.view.backgroundColor = [UIColor whiteColor];
 }
 
 @end

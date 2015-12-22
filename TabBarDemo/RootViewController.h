@@ -10,6 +10,6 @@
 
 @interface RootViewController : UIViewController
 
-@property (nonatomic,strong)UITabBarController *tabBarController;
+
 
 @end

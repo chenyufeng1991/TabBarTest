@@ -19,6 +19,7 @@
 
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
+  //声明根视图；
   RootViewController *root = [[RootViewController alloc]init];
   self.window.rootViewController = root;
 
@@ -26,6 +27,5 @@
 
   return YES;
 }
-
 
 @end

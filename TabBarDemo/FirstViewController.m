@@ -18,21 +18,18 @@
 @implementation FirstViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+  [super viewDidLoad];
 
   self.title = @"1111";
 
 }
 
-
 - (IBAction)buttonPressed:(id)sender {
 
+  //通过push跳到另一个界面；
   First02ViewController *first02 = [[First02ViewController alloc] init];
   [self.navigationController pushViewController:first02 animated:true];
 
-
 }
-
-
 
 @end

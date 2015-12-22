@@ -17,15 +17,15 @@
 @implementation Second02ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+  [super viewDidLoad];
+
 }
 
 - (IBAction)backButtonPressed:(id)sender {
 
+  //通过dismiss返回modal过来的界面；
   [self dismissViewControllerAnimated:true completion:nil];
 
 }
-
 
 @end
