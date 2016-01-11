@@ -10,6 +10,4 @@
 
 @interface RootViewController : UIViewController
 
-
-
 @end

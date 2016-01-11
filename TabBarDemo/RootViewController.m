@@ -21,10 +21,9 @@
 
 @implementation RootViewController
 
-- (void)viewDidLoad
-{
-  [super viewDidLoad];
+- (void)viewDidLoad{
 
+  [super viewDidLoad];
   UITabBarController *tabBarController = [[UITabBarController alloc]init];
   tabBarController.delegate = self;
   /**
